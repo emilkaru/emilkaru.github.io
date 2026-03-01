@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emil Karu helitehnika teenused</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="headerSpacer">
+            <a href="form.html" class="headerBackground">
+                <p>Info / kirjuta mulle</p>
+            </a>
+        </div>
+    </header>
+    <div id="imageOverlayWrapper" onclick="hideOverlay()">
+        <img id="overlayImage" src="" alt="image overlay">
+    </div>
+    <div id="upBtn">
+        <div id="scrollUpButton" onclick="window.scrollTo(0, 0);" hidden>
+            <p>Ülesse</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <div id="introWrapper">
+        <div id="intro">
+            <div>
+                <div id="introOverly"></div>
+                <p>Olen Emil Karu ning tegelen live-helindamisega.</p>
+                <p>Minu eesmärk on selge, tasakaalus ja töökindel heli.</p>
+                <br>
+                <p>Vastutan sündmuse helilise poole eest.</p>
+                <ul id="introList">
+                    <li>Live-miksimine</li>
+                    <li>Tehnika paigaldus</li>
+                    <li>Helindamise planeerimine</li>
+                </ul>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="intoTitle">Näited üritustest</h1>
+                <p style="font-size: 0.9em">Allpool on näiteid üritustest, mida olen helindanud.</p>
+            </div>
+            <div id="introImageWrapper" onclick="showOverlay(`images/me.png`)">
+                <img id="introImage" src="images/me.png" alt="pilt minust">
+                <p class="description">Pilt minust</p>
+            </div>
+        </div>
+    </div>
+    <main id="storyContainer">
+    </main>
+    <footer id="footer">
+        <p id="websiteOwnerInfo">Emil Karu 2026 | emilkaru4@gmail.com | +327 5902 1119</p>
+    </footer>
+</body>
+</html>

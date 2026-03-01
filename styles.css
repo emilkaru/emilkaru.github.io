@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    background: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.eventBlock {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    background: #1f1f1f;
+    border: 1px solid #2e2e2e;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+.headerBackground {
+    border-radius: 10px;
+    padding: 0 5px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+#headerSpacer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header p {
+    width: auto;
+    text-align: center;
+}
+
+header p:hover {
+    color: #376d9f;
+}
+
+p {
+    margin: 0;
+    font: 1em/1.5 "Roboto", Arial, sans-serif;
+}
+
+li {
+    font: 1em/1.5 "Roboto", Arial, sans-serif;
+}
+
+.title {
+    font: 1.4em/1.5 "Roboto", Arial, sans-serif;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 3px;
+    background: linear-gradient(145deg, #085c5c, #17105c);
+}
+
+.paragraph {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+img {
+    max-width: calc(100% - 4px);
+    margin: 2px;
+    border: 1px solid gray;
+}
+
+.description {
+    font-size: 0.8em;
+    color: #ececec;
+}
+
+
+.imageWrapper {
+    background: #2a2a2a;
+    max-width: 200px;
+    padding: 5px;
+    border: 1px solid #606060;
+    border-radius: 5px;
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: fit-content
+}
+
+.imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: 3px 3px 3px 10px;
+}
+
+header {
+    background: #1c1c1c;
+    display: flex;
+}
+
+footer {
+    background: #151515;
+    display: flex;
+
+}
+
+#websiteOwnerInfo {
+    color: #cccccc;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.bullets {
+    list-style-type: none;
+}
+
+.bullet::before {
+    content: "▶"; /* Use a triangular bullet icon */
+    color: #14caf1;
+    font-size: 1em;
+    display: inline-block;
+    width: 1em;
+}
+
+#storyContainer {
+    width: 60%;
+    margin: auto;
+    flex: 1;
+}
+
+#intro {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #424242;
+    position: relative;
+    background: linear-gradient(145deg, #085c5c, #17105c);
+    z-index: -2;
+}
+
+#introWrapper {
+    margin: auto;
+    width: 60%
+}
+
+@media (max-width: 1100px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    #headerSpacer {
+        width: 150px;
+    }
+
+    #storyContainer {
+        width: 90%; /* Take up most of the screen width */
+        margin: 5px auto;
+    }
+
+    #introWrapper {
+        width: 90%;
+        margin: 5px auto;
+    }
+}
+
+@media (hover: none) {
+    #storyContainer {
+        width: 90%;
+    }
+
+    #headerSpacer {
+        width: 150px;
+    }
+
+    #introWrapper {
+        width: 90%;
+    }
+}
+
+@media (orientation: portrait) {
+    #storyContainer {
+        width: 95%;
+    }
+
+    #headerSpacer {
+        width: 150px;
+    }
+
+    #introWrapper {
+        width: 95%;
+    }
+}
+
+
+#imageOverlayWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+#overlayImage {
+    max-width: 70%;
+    max-height: 95%;
+}
+
+.intoTitle {
+    font: 1.57em/1 "Roboto", Arial, sans-serif;
+    margin: 5px 0;
+}
+
+#FormTitleWrapper {
+    width: 50%;
+    margin: auto auto 30px;
+}
+
+p #intro {
+    flex: 1;
+}
+
+#introList {
+    margin: 0
+}
+
+#introOverly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.48);
+    z-index: -1;
+}
+
+
+#introImageWrapper {
+    margin-left: auto;
+    background: #2a2a2a;
+    max-width: 190px;
+    padding: 5px;
+    border: 1px solid #606060;
+    border-radius: 5px;
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+#upBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.err {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "ID": 7,
+    "layout": ["title", "paragraph", "bulletPoints", "images"],
+    "text": [
+      "17. detsember 2025 - SG jõulukontsert",
+      "Üritus oli intensiivne ja suhteliselt suure mahuga. Kasutuses oli 24 mikrofoni ainult vokaalide jaoks. Tagasein avati, tehes saali rohkem kui kaks korda suuremaks, pärast piltide tegemist.",
+      [
+        "14 põsemikrofoni",
+        "laulukoorid",
+        "kooli Behringer X32 Compact"
+      ],
+      [
+        "Pilt lava pealt",
+        "Lava üldplaan",
+        "Helipuldi ümbrus",
+        "Minu vaatepunkt puldi taga",
+        "Juhtmevabade mikrofonide vastuvõtjad lava ääres"
+      ]
+    ],
+    "metadata": [
+      [],
+      [],
+      [],
+      [
+        "images/jõulukontsert 2025/lava peal.jpg",
+        "images/jõulukontsert 2025/lava üldpilt.jpg",
+        "images/jõulukontsert 2025/office.jpg",
+        "images/jõulukontsert 2025/office istudes.jpg",
+        "images/jõulukontsert 2025/rack.jpg"
+      ]
+    ]
+  },
+  {
+    "ID": 6,
+    "layout": ["title", "paragraph", "bulletPoints", "images"],
+    "text": [
+      "11. detsember 2024 - Kalle Sepp Saku kirikus",
+      "Kalle kutsus mind heli tegema pärast 9. okt esinemist. Ma kasutasin kiriku kohaliku helisüsteemi. Kirik oli akustiliselt väga kajav. Kuna ma olin harjunud, et reverbi effekti peab natukene kuulma, lisasin seda liiga palju.",
+      [
+        "A&H SQ-5 pult",
+        "L-Acoustics Syva PA",
+        "Shure SM58"
+      ],
+      [
+        "Sündmuse plakat"
+      ]
+    ],
+    "metadata": [
+      [],
+      [],
+      [],
+      [
+        "images/Kalle poster 11.dec 2024.png"
+      ]
+    ]
+  },
+  {
+    "ID": 5,
+    "layout": ["title","paragraph", "bulletPoints","images"],
+    "text": [
+      "9. oktoober 2024 - Kalle Sepp ja hoovikontsert",
+      "Kalle Sepp tuli meie juurde esinema ning ma nägin selles võimalust heli teha. Tegin selleks Eventechist päringu ja seadsin tehnika iseseisvalt paika.",
+      [
+        "Soundcraft UI16 pult",
+        "AudioFocus Venu 15a PA + Audiofocus CM12a monitor",
+        "Shure Beta 58a",
+        "Kalle enda DI box",
+        "Staatilised LED-ribad õhtuseks valguseks"
+      ],
+      [
+        "Mina Kalle kõrval",
+        "Kalle esinemas"
+      ]
+    ],
+    "metadata": [
+      [],
+      [],
+      [],
+      [
+        "images/Kalle Sepp 2024 September/Kalle and me.png",
+        "images/Kalle Sepp 2024 September/Kalle performing.png"
+      ]
+    ]
+  },
+  {
+    "ID": 0,
+    "layout": ["title", "paragraph", "images"],
+    "text": [
+      "Kuidas see kõik alguse sai?",
+      "Juba lapsepõlvest on mul traditsiooniks saanud sünnipäevadeks PA-süsteemi rentimine. Aja jooksul kasvas huvist praktiline kogemus ja vastutus suuremate ürituste eest.",
+      [
+        "Foto aastast 2015",
+        "Foto aastast 2024"
+      ]
+    ],
+    "metadata": [
+      [],
+      [],
+      [
+        "images/2015 bday.png",
+        "images/2024 bday.jpg"
+      ]
+    ]
+  }
+]
